@@ -9,7 +9,7 @@ import time
 LABEL_DIR = r"/mnt/c/Users/ashuy/Documents/face/test/labels"
 IMAGE_DIR = r"/mnt/c/Users/ashuy/Documents/face/test/images"
 YAML_PATH = r"/mnt/c/Users/ashuy/Documents/face/test/data.yaml"
-API_URL = "https://dev-iscan.britanniaiscan.com/multiple_Biscuits_FEB_24_V1?store_id=a&user_id=a&type_name=a"
+API_URL = "YOUR_API_URL"
 OUTPUT_EXCEL = os.path.join(IMAGE_DIR, "Waf_Detection_Report_Final.xlsx")
 
 HEADERS = {"accept": "application/json"}
